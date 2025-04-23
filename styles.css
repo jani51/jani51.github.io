@@ -1,0 +1,33 @@
+.color-example{
+        color: red;
+        background-color: #fff300;
+        border: 1px solid black;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        
+        }
+
+.header-example{
+        font-family: sans-serif;
+        font-size: 15px;
+        color: blue;
+        
+        }
+
+.list-example{
+        color:  #7b0682;
+        list-style: square;
+
+        }
+
+.text-example{
+        font-family: URW Chancery L, cursive;
+        font-size: 22px;
+        text-transform: capitalize;
+        text-decoration: underline;
+}
+
+.div-example{
+		background-color: orange;
+		border: 1px solid white;
+}
