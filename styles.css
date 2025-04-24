@@ -1,33 +1,51 @@
 .color-example{
-        color: red;
+        color: gray;
         background-color: #fff300;
         border: 1px solid black;
         margin-top: 5px;
         margin-bottom: 5px;
         
-        }
+}
 
 .header-example{
         font-family: sans-serif;
         font-size: 15px;
         color: blue;
+		border-style: dotted;
+		padding-top: 10px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		padding-left: 10px;
         
-        }
+}
 
 .list-example{
         color:  #7b0682;
         list-style: square;
 
-        }
+}
 
 .text-example{
         font-family: URW Chancery L, cursive;
         font-size: 22px;
         text-transform: capitalize;
         text-decoration: underline;
+		background: gray;
+		border: 2px solid red;
+		border-radius: 5px;
 }
 
 .div-example{
 		background-color: orange;
 		border: 1px solid white;
 }
+
+body{
+	background-color: lightblue;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 150px;
+	margin-left: 80px;
+	
+}
+
