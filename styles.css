@@ -21,8 +21,10 @@
 
 .list-example{
         color:  #7b0682;
-        list-style: square;
-
+        list-style: none;
+		float: left;
+		padding: 10px 60px 50px 10px;
+		
 }
 
 .text-example{
@@ -38,14 +40,29 @@
 .div-example{
 		background-color: orange;
 		border: 1px solid white;
+		
 }
 
 body{
-	background-color: lightblue;
-	margin-top: 100px;
-	margin-bottom: 100px;
-	margin-right: 150px;
-	margin-left: 80px;
-	
+background-color: lightblue;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}  
+
+section{
+	margin: 0px 100px 10px 00px;
+	padding-right: 50px;
 }
 
+nav ul { 
+	list-style-type: none; 
+}
+nav a { 
+	text-decoration: none; 
+}
+
+
+a:hover {
+	text-decoration: none; color: #ff0000; 
+}
